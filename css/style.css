@@ -1,0 +1,153 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* GLOBAL */
+body {
+  background: #f5f7ff;
+  color: #1e293b;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/* ███ NAVBAR ███ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 0;
+}
+
+/* LOGO SMK */
+.logo-smk {
+  width: 150px;   /* ← dari 110px menjadi 150px */
+  filter: drop-shadow(0 3px 6px rgba(0,0,0,0.25));
+}
+
+/* tombol menu */
+.nav-links a {
+  color: white;
+  margin-left: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+
+  padding: 8px 18px;
+  border: 2px solid white;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+  background: white;
+  color: #6a5cff;
+}
+
+
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(135deg, #5158ff, #8f5bff);
+  padding-bottom: 3rem;
+  color: white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 0;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* LOGO KEJURUAN */
+.logo-kejuruan {
+  width: 220px;
+  filter: drop-shadow(0 6px 14px rgba(0,0,0,0.25));
+}
+
+/* ███ SECTION ███ */
+.section {
+  margin-top: 3rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #475569;
+}
+
+
+/* ███ GRID CARD ███ */
+.grid {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.8rem;
+  border-radius: 16px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 65px;
+  margin-bottom: 0.8rem;
+}
+
+
+/* ███ FOOTER ███ */
+.footer {
+  background: #1e293b;
+  color: white;
+  padding: 1.6rem 0;
+  margin-top: 3rem;
+  text-align: center;
+}
